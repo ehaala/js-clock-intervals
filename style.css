@@ -2,13 +2,23 @@
 }
 
 #clock img {
+	position: absolute;
+	top: 100px;
+	left: 200px;
 }
 
 #hour {
+	transform: rotate(360deg);
 }
 
 #minute {
+	transform: rotate(360deg);
 }
 
 #second {
+	transform: rotate(360deg);
+}
+
+body {
+	background-image: url(http://images.all-free-download.com/images/graphiclarge/wood_background_hd_picture_4_169843.jpg);
 }
